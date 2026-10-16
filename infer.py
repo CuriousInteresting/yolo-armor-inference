@@ -14,6 +14,7 @@ VIDEO_PATH = "videos/original.mp4"
 
 SAVE_PATH = "results/output.mp4"
 
+CONF_THRESHOLD = 0.7
 
 
 # ==========================
@@ -140,7 +141,7 @@ while True:
 
         imgsz=640,
 
-        conf=0.25,
+        conf=CONF_THRESHOLD,
 
         verbose=False
 
