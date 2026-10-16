@@ -1,0 +1,47 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-env/
+
+# Local editor settings and secrets
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+
+# Course-provided model, locally recorded video, generated outputs
+/weights/
+/videos/
+/results/
+/runs/
+
+# Prevent accidentally committing these large binary formats elsewhere
+*.pt
+*.pth
+*.onnx
+*.engine
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.bak
+
+# Deliberately track infer.py, README.md, requirements.txt and images/
