@@ -1,0 +1,11 @@
+# Python 3.10.22 | Windows 10 | YOLO26 Pose inference (CPU)
+# Versions recorded from the working conda environment: yolo26.
+# torch.__version__ = 2.14.1+cpu (CPU build). The public version is pinned
+# below; installing that exact CPU build may require the PyTorch CPU wheel index.
+# Use: python -m pip install -r requirements.txt
+
+ultralytics==8.4.177
+torch==2.14.1
+torchvision==0.29.1
+opencv-python==5.0.0.93
+numpy==2.2.6
